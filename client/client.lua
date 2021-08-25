@@ -18,7 +18,7 @@ Citizen.CreateThread(function()
             ESX.Game.Utils.DrawText3D(laundertext, "Press [~r~E~w~] to launder money", 1, 4)
         end
 
-        if IsControlJustPressed(0, 153) and (dist < 10) then
+        if IsControlJustPressed(0, 153) and (dist < 1) then
             exports['mythic_progbar']:Progress({
                 name = "unique_action_name",
                 duration = 10000,
